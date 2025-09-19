@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS mchili_gpt;
+USE mchili_gpt;
+
+CREATE TABLE IF NOT EXISTS conversations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    phone_number VARCHAR(20) NOT NULL,
+    role VARCHAR(10) NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
