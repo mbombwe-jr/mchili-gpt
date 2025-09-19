@@ -90,7 +90,7 @@ async fn call_mistral(
     history: &[(String, String)],
 ) -> Result<String, String> {
     // Hardcoded API key and model
-    let api_key = "YK0W7952T7Hg3T8GIXz36zEBOng222N3";
+    let api_key = "API_KEY";
     let model = "mistral-large-latest";
     let system_prompt = "You are Mchili a concise, helpful assistant. Keep replies short and actionable. do not reply in more than 4 sentenses and remember you are made by zoofam company and you are called mchili";
 
